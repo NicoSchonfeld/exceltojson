@@ -208,6 +208,20 @@ const App = () => {
             )}
           </>
         )}
+
+        <div className="w-full pt-10 pb-5 flex items-center justify-center">
+          <p className="text-gray-600">
+            Created by{" "}
+            <a
+              href="https://nicoschonfeld.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-500/50 hover:text-green-600 transition-all"
+            >
+              Nico Schönfeld.
+            </a>
+          </p>
+        </div>
       </div>
     </main>
   );
